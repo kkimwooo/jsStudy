@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Vanilla JS Study</title>
+        <meta charset="utf-8" />
+        <link rel='stylesheet' href='./index.css' />
+    </head>
+    <header>
+        <h1>Vaniila JS Study</h1>
+    </header>
+    <p></p>
+    <body>
+        <div>
+            <h2>To-do List</h2>
+            <input 
+            type='text' 
+            class='todo-text' 
+            id='textTodo' 
+            placeholder="ex)자동차 보험"/>
+            <input 
+            type='button' 
+            class='todo-btn' 
+            id='btnAddTodo' 
+            value='추가'/>
+            <input 
+            type='button' 
+            class='todo-btn' 
+            id='btnRemoveAll' 
+            value='리스트 전체 삭제'/>
+            <p></p>
+            <ul class='todo-list' id='ulTodo'>
+            </ul>
+            <input 
+            type='button' 
+            class='todo-btn' 
+            id='btnRemoveDone' 
+            value='완료 목록 삭제'/>
+        </div>
+    </body>
+    <script src='./todo.js'></script>
+</html>

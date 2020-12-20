@@ -1,0 +1,9 @@
+span:hover{
+    cursor: pointer;
+    text-decoration-line: underline;
+    background-color: cornsilk;
+}
+
+.done-span{
+    text-decoration-line: line-through;
+}
